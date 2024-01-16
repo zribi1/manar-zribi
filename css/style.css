@@ -1,0 +1,437 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.a {
+    margin-left: 200px; /* Largeur de la barre de navigation */
+}
+
+header {
+    background-color: #577ca0;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    width: 200px; /* Largeur de la barre de navigation */
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #327bb7;
+    padding-top: 20px;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+article {
+    margin: 20px;
+}
+
+/* Ajoutez ces styles à votre fichier CSS */
+/* Ajoutez ces styles à votre fichier CSS */
+
+img#manar {
+    display: block;
+    margin: 0 auto; /* Pour centrer horizontalement */
+    max-width: 20%; /* Ajustez la largeur maximale selon vos besoins */
+    height: auto;
+}
+
+
+
+
+/* Ajoutez ces styles dans votre fichier style.css */
+.prc3 img {
+    width: 150px;
+    height: 150px;
+    display: none;
+}
+.prc3 {
+    text-align: center;
+}
+
+
+
+.prc2 {
+    text-align: center;
+}
+
+.prc2 img {
+    display: inline-block; /* Pour éviter l'espace automatique généré par les images */
+    margin: 0 auto; /* Pour centrer horizontalement */
+}
+
+
+nav a:hover {
+    background-color: #1d72b8;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    position: fixed;
+    background-color: #e74c3c;
+    right: 0;
+    bottom: 13%;
+    top: 0;
+    width: 15%;
+    border: 1px solid white;
+    
+}
+contact-info {
+    max-width: 400px;
+    margin: 20px auto 20px 20px; /* Marge à gauche pour centrer à gauche */
+    padding: 15px;
+    background-color: #106886;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: rgb(21, 3, 3);
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info-item img {
+    margin-right: 10px;
+}
+
+.info-item span {
+    font-weight: bold;
+}
+
+
+
+  
+/* Styles généraux pour le formulaire */
+
+form {
+    width: 50%;
+    margin: 50px auto; /* Centrer le formulaire horizontalement avec une marge de 50px en haut et en bas */
+    text-align: left;
+    font-weight: bold; /* Mettre le texte en gras */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #3498db; /* Couleur bleue pour le texte des labels */
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #3498db; /* Couleur bleue pour la bordure des champs */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498db; /* Couleur bleue pour le fond du bouton */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9; /* Couleur bleue légèrement plus foncée au survol du bouton */
+}
+
+
+
+
+
+
+
+
+form input[type="text"],
+form input[type="date"],
+form input[type="email"],
+form input[type="radio"],
+form input[type="checkbox"],
+form select {
+    width: calc(100% - 16px); /* Ajustez la largeur selon vos besoins */
+    padding: 8px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Style des messages d'erreur ou de confirmation si nécessaire */
+.error-message,
+.success-message {
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.error-message {
+    color: #c0392b;
+    background-color: #f9ebec;
+}
+
+.success-message {
+    color: #27ae60;
+    background-color: #e8f8e5;
+}
+
+
+/* Sidebar Styles */
+.sidebar {
+    position: fixed;
+    background-color: #e74c3c;
+    right: 0;
+    bottom: 13%;
+    top: 0;
+    left: 15%;
+    border: 1px solid white;
+}
+
+/* Image Hover Styles */
+img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+article {
+    word-wrap: break-word;
+    font-size: 16px;
+    line-height: 1.6;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    padding: 20px;
+    text-align: justify;
+    margin: 30px auto; /* Ajustez la marge selon vos besoins */
+    max-width: 800px; /* Ajustez la largeur selon vos besoins */
+}
+
+article h2 {
+    color: #333;
+}
+
+article p {
+    margin-bottom: 15px;
+}
+
+article a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5; /* Couleur de fond */
+    padding: 10px;
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.info-item img {
+    margin-right: 10px;
+}
+
+.info-item span {
+    color: #333; /* Couleur du texte */
+    font-size: 16px; /* Taille de la police */
+    font-weight: bold; /* Gras */
+}
+
+/* Styles supplémentaires */
+.info-item img[alt="Date de Naissance"] {
+    filter: invert(52%) sepia(85%) saturate(101%) hue-rotate(329deg) brightness(89%) contrast(89%);
+}
+
+.info-item img[alt="Téléphone"] {
+    filter: invert(30%) sepia(22%) saturate(4190%) hue-rotate(72deg) brightness(95%) contrast(87%);
+}
+
+.info-item img[alt="Mail"] {
+    filter: invert(84%) sepia(5%) saturate(293%) hue-rotate(136deg) brightness(85%) contrast(83%);
+}
+
+.info-item img[alt="Adresse"] {
+    filter: invert(87%) sepia(0%) saturate(1862%) hue-rotate(183deg) brightness(91%) contrast(90%);
+}
+/* Style du pied de page */
+footer {
+    background-color: #063e5d;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    margin-top: auto;
+    position: relative;
+}
+
+footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #1a1a1a, transparent, #1a1a1a);
+    z-index: -1;
+}
+
+footer p {
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+/* Autres styles à personnaliser */
+
+/* Ajoutez ces styles à votre fichier CSS */
+
+/* Ajoutez ces styles à votre fichier CSS */
+
+/* Ajoutez ces styles à votre fichier CSS */
+
+/* Ajoutez ces styles à votre fichier CSS */
+
+/* Ajoutez ces styles à votre fichier CSS */
+
+.table1 {
+    width: 70%; /* Ajustez la largeur du tableau selon vos préférences */
+    margin: 20px auto; /* Centre le tableau en utilisant la marge auto */
+    border-collapse: collapse;
+}
+
+.table1 th, .table1 td {
+    border: 2px solid #3498db; /* Couleur de la bordure bleue */
+    padding: 10px;
+    text-align: left;
+}
+
+.table1 th {
+    background-color: #3498db; /* Couleur de fond bleue pour les en-têtes */
+    color: #fff; /* Texte blanc pour une meilleure lisibilité */
+}
+
+.f1 {
+    margin: 20px;
+    text-align: center; /* Center the content */
+}
+
+/* Style the questions */
+.question {
+    margin-bottom: 15px;
+    text-align: left; /* Align text to the left within the question container */
+}
+
+/* Style the submit button container */
+.submit-btn-quizz {
+    text-align: center;
+}
+
+/* Style the submit button */
+.btn-1 {
+    background-color: #0074cc;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for the specific article with class "manar" */
+/* Style for the specific article with class "manar" */
+.manar {
+    text-align: center; /* Center the text */
+    font-weight: bold; /* Make the text bold */
+    background-color: #0074cc; /* Set the background color to blue */
+    color: white; /* Set the text color to white */
+    padding: 10px; /* Add some padding for better visibility */
+}
+
+/* Change button color on hover */
+.btn-1:hover {
+    background-color:#0074cc ;
+}
+
+/* Change button color on click */
+.btn-1:active {
+    background-color: #0074cc;
+}
+
+
+.img-container {
+    text-align: center; /* Alignez le texte à gauche */
+    margin-top: 20px;
+}
+
+.img-container img {
+    width: 300px;
+    height: auto;
+}
+
+/* Ajoutez ces styles à votre fichier CSS */
+
+
+
+
+
+
+
+
